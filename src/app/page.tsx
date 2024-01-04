@@ -26,10 +26,10 @@ export default function Home() {
         </div>
         <div className="w-full h-100 bg-red margin">
         <p className="flex justify-center text-center mx-10 mt-5 text-lg">
-          Hello! I'm a fifth year PhD student in the math department at UC San Diego.
+          Hello! I`&apos;`m a fifth year PhD student in the math department at UC San Diego.
         </p>
         <p className="flex justify-center text-center mx-10 mb-5 text-lg">
-          Scroll down to see what I've been working on.
+          Scroll down to see what I`&apos;`ve been working on.
         </p>
         </div>
         <div className="relative w-full h-auto flex justify-center">
