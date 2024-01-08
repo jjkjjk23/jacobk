@@ -30,14 +30,8 @@ export default function Home() {
             <h1 className="z-10 text-5xl m-5 font-bold"> Jacob Keller </h1>
         </div>
         <div
-          className="relative w-full z-0 aspect-[6000/2631] overflow-hidden"
+          className="relative w-full z-0 aspect-[6000/2631] overflow-hidden bg-Banner bg-no-repeat bg-contain"
         >
-          <Image
-            alt={"Banner image of Jacob"}
-            src={Banner}
-            quality={100}
-            className = "z-0 w-full h-full"
-          />
         </div>
         <div className="w-full h-100 bg-red margin">
         <p className="flex justify-center text-center mx-10 mt-5 text-lg">
@@ -48,57 +42,47 @@ export default function Home() {
         </p>
         </div>
         <p className="font-bold text-white text-5xl my-10"> Pure Math Research </p>
-        <div className="relative w-full h-auto flex justify-center">
-          <Card
-            className= "relative p-10 w-[95vw] h-auto bg-gradient-to-tl from-rocky to-darkerRock flex-row content-end"
+          <div
+            className= "relative p-10 w-[95vw] h-auto flex flex-row items-center justify-center"
           >
-            <div className="relative w-1/2 h-full flex items-center">
-              <div className="w-full h-auto flex justify-center">
-                <Image 
-                  src={Paper}
-                  alt="Paper cover"
-                  className="w-full aspect-[12/18]"
-                  quality={100}
-                />
+            <div className="relative w-1/2 h-full flex items-center justify-center">
+              <div className="h-[60vh] w-[50vw] flex justify-center aspect-[12/18] bg-paper bg-contain bg-no-repeat">
               </div>
             </div>
-            <div className="relative w-1/2 mx-10 flex flex-col mr-0">
+            <div className="mx-10 flex flex-col mr-0 max-h-[60vh]">
               <p className="mb-5 text-white">
               Mathematics research on algebraic geometry presented at 7 seminars and conferences across the US.
               Preprint in preparation.
               </p>
-              <Card className="relative w-full bg-waterfall">
+              <Card className="bg-waterfall">
+                <div className="h-[60vh] w-[40vh] max-w-[300px]">
+                  <Image
+                    src={Universities}
+                    alt="University logos"
+                    quality={100}
+                    fill={true}
+                  />
+                </div>
+              </Card>
+            </div>
+          </div>
+        <p className="mt-10 text-5xl font-bold text-center"> Memories App Backend </p> 
+        <div className="relative w-full h-auto flex justify-center">
+            <div className="w-full aspect-[7/8] m-10 bg-server bg-no-repeat bg-cover"/>
+            <div className="m-10 ml-0">
+              <p className="text-white"> The backend for the Memories app is a websocket server written in C++ that interfaces with a PostgreSQL database. </p>
+              <Card className="flex flex-row bg-darkGreen mt-10">
                 <Image
-                  src={Universities}
-                  alt="University logos"
-                  className="w-full h-full"
-                  quality={100}
+                  src = {BackendLanguages}
+                  alt = "C++, SQL, and PostgreSQL logos"
+                  className = "w-full aspect-[3/4]"
                 />
               </Card>
             </div>
-          </Card>
         </div>
-        <p className="mt-10 text-5xl font-bold"> Memories App Backend </p> 
+        <p className="font-bold text-center text-5xl text-white mt-10"> Teaching </p>
         <div className="relative w-full h-auto flex justify-center">
-          <Card className="flex flex-row bg-darkGreen w-[95vw] h-100 mt-10">
-            <Image 
-              src={Server}
-              alt="Snippet of server code"
-              className="w-1/2 aspect-[7/8] m-10"
-            />
-            <div className="m-10 ml-0">
-              <p className="text-white"> The backend for the Memories app is a websocket server written in C++ that interfaces with a PostgreSQL database. </p>
-              <Image
-                src = {BackendLanguages}
-                alt = "C++, SQL, and PostgreSQL logos"
-                className = "w-full aspect-[3/4]"
-              />
-            </div>
-          </Card>
-        </div>
-        <p className="font-bold text-5xl text-white mt-10"> Teaching </p>
-        <div className="relative w-full h-auto flex justify-center">
-          <Card className="flex flex-col bg-darkBlueGreen w-[95vw] h-100 mt-10">
+          <div className="flex flex-col w-[95vw] h-100 mt-10">
             <p className="text-white m-10"> I&apos;ve been a teaching assistant since Fall 2019 leading discussion sections and office hours for courses ranging from Precalculus to Discrete Mathematics and Abstract Algebra. Here are some reviews from my students.
             </p>
             <div className="flex flex-row items-center">
@@ -146,25 +130,21 @@ department!</text>
                 </Card>
               </div>
             </div>
-          </Card>
+          </div>
         </div>
-        <p className="mt-10 text-5xl font-bold"> Personal Website</p> 
+        <p className="mt-10 text-center text-5xl font-bold"> Personal Website</p> 
         <div className="relative w-full h-auto flex justify-center">
-          <Card className="flex flex-row bg-darkGreen w-[95vw] h-100 mt-10">
-            <Image 
-              src={Website}
-              alt="Snippet of server code"
-              className="w-1/2 aspect-[7/8] m-10"
-            />
-            <div className="m-10 ml-0">
+          <div className="flex w-[95vw] h-100 mt-10 items-center">
+            <div className="w-[90vw] h-[30vh] m-10 bg-website bg-cover bg-no-repeat"/>
+            <div className="justify-center items-center">
               <p className="text-white"> This website is written in Typescript using the Next.js framework. It is served statically on an Apache server. </p>
               <Image
                 src = {WebsiteLogos}
-                alt = "C++, SQL, and PostgreSQL logos"
-                className = "w-full aspect-[3/4]"
+                alt = "React, typescript, Next.js, and Apache logos"
+                className = "h-[30vh] aspect-[3/4]"
               />
             </div>
-          </Card>
+          </div>
         </div>
       </main>
     </NextUIProvider>
