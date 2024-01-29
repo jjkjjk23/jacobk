@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+  websocket-server:
+    image: ghcr.io/jjkjjk23/jacobk:latest 
+    ports:
+      - "443:443"
+    volumes:
+      - /etc/letsencrypt/live/ws.jacobk.io/fullchain.pem:/usr/local/apache2/htdocs/fullchain.pem
+      - /etc/letsencrypt/live/ws.jacobk.io/privkey.pem:/usr/local/apache2/htdocs/privkey.pem
