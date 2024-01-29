@@ -15,7 +15,7 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'back': 'url(/GreenBackground.svg)',
-        'server': 'url(/ServerCode.png)',
+        'server': 'url(/Server_Code.png)',
         'Banner': 'url(/Banner.jpg)',
         'paper': 'url(/PaperFront-1.png)',
         'website': 'url(/Website.png)',
