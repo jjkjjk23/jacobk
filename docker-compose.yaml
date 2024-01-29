@@ -6,6 +6,6 @@ services:
     ports:
       - "443:443"
     volumes:
-      - /etc/letsencrypt/live/ws.jacobk.io/fullchain.pem:/usr/local/apache2/conf/fullchain.pem
-      - /etc/letsencrypt/live/ws.jacobk.io/privkey.pem:/usr/local/apache2/conf/privkey.pem
+      - /etc/letsencrypt/live/ws.jacobk.io/server.crt:/usr/local/apache2/conf/server.crt
+      - /etc/letsencrypt/live/ws.jacobk.io/server.key:/usr/local/apache2/conf/server.key
 
