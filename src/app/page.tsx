@@ -215,9 +215,9 @@ function Equivariance() {
           I have been researching a method to train machine learning models to be more equivariant. The video below goes into what this means, and gives a demonstration of the difference that it makes to apply my method to a machine learning model.
           The method has been implemented as a pip package and you can see its code and documentation at my <a href='https://www.github.com/jjkjjk23/Equivariance-Regularizer'> GitHub.</a>
         </p>
-        <div className="flex flex-col items-center justify-center min-w-[400px] max-w-[560px] max-w-[95vw] overflow-hidden aspect-[1.78]">
+        <div className="flex flex-col items-center justify-center w-[95vw] sm:w-[560px] overflow-hidden aspect-[1.78]">
           <iframe
-            className="min-w-[400px] max-w-[560px] max-w-[95vw] aspect-[1.78]"
+            className="w-[95vw] sm:w-[560px] aspect-[1.78]"
             src="https://www.youtube.com/embed/p4PM7FvxxsU?si=RYJdcZf-taJjPWkX"
             title="YouTube video player"
             frameBorder="0"
@@ -243,9 +243,9 @@ function Math() {
 
 function MemoriesDesktop() {
   return (
-  <div className="flex flex-col items-center justify-center min-w-[400px] max-w-[560px] max-w-[95vw] overflow-hidden aspect-[1.78]">
+  <div className="flex flex-col items-center justify-center w-[95vw] sm:w-[560px] overflow-hidden aspect-[1.78]">
     <iframe
-      className="min-w-[400px] max-w-[560px] max-w-[95vw] aspect-[1.78]"
+      className="w-[95vw] sm:w-[560px] aspect-[1.78]"
       src="https://www.youtube.com/embed/JNr8AYtq6lc?si=ckSnDPceYIDWXos5"
       title="YouTube video player"
       frameBorder="0"
