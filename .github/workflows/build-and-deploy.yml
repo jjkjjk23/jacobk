@@ -24,9 +24,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.TOKEN }}
 
-      - name: Build nextJS 
-        run: npm i next && npm run build
-
       - name: Build Docker and push
         uses: docker/build-push-action@v5
         with:
