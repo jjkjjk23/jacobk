@@ -4,6 +4,7 @@ services:
   websocket-server:
     image: ghcr.io/jjkjjk23/jacobk:latest 
     ports:
+      - "80:80"
       - "443:443"
     volumes:
       - /etc/letsencrypt/live/ws.jacobk.io/fullchain.pem:/usr/local/apache2/conf/fullchain.pem
