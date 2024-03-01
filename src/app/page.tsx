@@ -293,7 +293,7 @@ export default function Home() {
         <div
           className="sticky z-20 flex flex-row justify-between w-full aspect-[20/1]z-10 inset-x-0 top-0 bg-[rgba(0,0,0,.8)] backdrop-blur-md h-[8vh]"
         >
-          <h1 className="z-10 text-3xl m-5 font-bold"> Jacob Keller </h1>
+          <h1 className="z-10 text-3xl m-5 font-bold text-white"> Jacob Keller </h1>
           <div className="flex flex-row">
             <a href="https://www.github.com/jjkjjk23" className="h-[4vh] w-[4vh] m-[2vh] mr-0">
               <Image
@@ -318,15 +318,15 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full h-100 bg-red margin">
-          <p className="flex justify-center text-center mx-10 mt-5 text-lg">
+          <p className="flex justify-center text-center text-white mx-10 mt-5 text-lg">
             Hello! I&apos;m a fifth year PhD student in the math department at UC San Diego.
           </p>
-          <p className="flex justify-center text-center mx-10 mb-5 text-lg">
+          <p className="flex justify-center text-center text-white mx-10 mb-5 text-lg">
             Scroll down to see what I&apos;ve been working on.
           </p>
         </div>
         <Memories />
-        <p className="mt-10 text-5xl font-bold text-center snap-start scroll-mt-[10vh]"> Memories App Backend </p>
+        <p className="mt-10 text-5xl font-bold text-center text-white snap-start scroll-mt-[10vh]"> Memories App Backend </p>
         <MemoriesBack />
         <Equivariance />
         <Math />
@@ -368,7 +368,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <p className="mt-10 text-center text-5xl font-bold snap-start scroll-mt-[10vh]"> Personal Website</p>
+        <p className="mt-10 text-center text-white text-5xl font-bold snap-start scroll-mt-[10vh]"> Personal Website</p>
         <WebsiteSection />
       </main>
     </NextUIProvider>
