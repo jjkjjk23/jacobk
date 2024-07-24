@@ -126,7 +126,7 @@ function DesktopMath(): ReactHTMLElement<HTMLElement> {
         Mathematics research on algebraic geometry presented at 7 seminars and conferences across the US.
       </p>
       <p className="text-white text-center mb-5">
-        Preprint in preparation.
+        PhD Thesis can be found <a href="https://escholarship.org/uc/item/8389j4z4">here</a>.
       </p>
       <div className="flex justify-center">
         <div
@@ -319,7 +319,7 @@ export default function Home() {
         </div>
         <div className="w-full h-100 bg-red margin">
           <p className="flex justify-center text-center text-white mx-10 mt-5 text-lg">
-            Hello! I&apos;m a fifth year PhD student in the math department at UC San Diego.
+            Hello! I&apos;m a data scientist working at DataAnnotation tech. I recently graduated with my PhD in Mathematics from UC San Diego.
           </p>
           <p className="flex justify-center text-center text-white mx-10 mb-5 text-lg">
             Scroll down to see what I&apos;ve been working on.
