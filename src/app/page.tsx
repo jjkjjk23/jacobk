@@ -163,7 +163,7 @@ function MobileMath(): ReactHTMLElement<HTMLElement> {
         Mathematics research on algebraic geometry presented at 7 seminars and conferences across the US.
       </p>
       <p className="mb-5 text-white text-center">
-        Preprint in preparation.
+        PhD Thesis can be found <a href="https://escholarship.org/uc/item/8389j4z4">here</a>.
       </p>
       <div
         className="flex flex-col w-[90vw] justify-center"
