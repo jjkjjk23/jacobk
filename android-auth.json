@@ -3,8 +3,8 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "<package_name>",
-      "sha256_cert_fingerprints": ["<sha256_cert_fingerprint>"]
+      "package_name": "com.jacobk.MediatorProto",
+      "sha256_cert_fingerprints": ["C6:D3:76:A8:76:7A:E3:06:73:E0:44:03:0D:DE:E4:D7:28:4A:77:7C:23:F2:1B:C8:13:00:F3:B0:AD:18:DD:EC"]
     }
   }
 ]
